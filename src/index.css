@@ -33,3 +33,7 @@ li {
     align-items: stretch; 
     */    
 }
+
+.mark {
+    font-size: 10rem;
+}
