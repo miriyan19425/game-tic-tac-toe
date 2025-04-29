@@ -37,3 +37,7 @@ li {
 .mark {
     font-size: 10rem;
 }
+
+.win {
+	background-color: SeaGreen;
+}
