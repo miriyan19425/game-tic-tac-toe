@@ -10,7 +10,11 @@ html {
   
 main { 
     height: 100vh;
-    background-color: SkyBlue;  
+    background-color: SkyBlue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /*flex-start*/
+    align-items: center; /*stretch*/
 }
   
 ul {
@@ -40,4 +44,11 @@ li {
 
 .win {
 	background-color: SeaGreen;
+}
+
+.new {
+    padding: 1rem;
+    border-radius: 0.3rem;
+    background-color: RoyalBlue;
+    color: white;
 }
