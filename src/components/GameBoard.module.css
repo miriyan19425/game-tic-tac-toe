@@ -1,0 +1,20 @@
+.board {
+    list-style-type: none;
+    height: 75vh;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);  
+    /*
+    justify-items: stretch; 
+    align-items: stretch; 
+    */
+}
+
+.square {
+    display: grid;
+    /*
+    justify-items: stretch; 
+    align-items: stretch; 
+    */    
+}
