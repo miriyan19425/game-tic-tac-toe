@@ -21,8 +21,8 @@ function GameBoard({filledSquares, addNewMark}) {
   const currentGameBoard = fillGameBoard(filledSquares);
   const winIndexes = checkWinner(currentGameBoard);
   return  (
-    <ul>
-     { currentGameBoard.map( (mark, i) => <li key={i}><Button handleOnClick={() => addNewMark(i)} winIndxComb={winIndexes} indx={i}>{mark}</Button></li> ) }
+    <ul className='board'>
+     { currentGameBoard.map( (mark, i) => <li className='square' key={i}><Button handleOnClick={() => addNewMark(i)} winIndxComb={winIndexes} indx={i}>{mark}</Button></li> ) }
     </ul>   
   );
   
