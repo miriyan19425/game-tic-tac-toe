@@ -16,39 +16,3 @@ html {
     justify-content: space-around; /*flex-start*/
     align-items: center; /*stretch*/
 }
-  
-ul {
-    list-style-type: none;
-    height: 75vh;
-    width: 50vw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr); 
-    /*
-    justify-items: stretch; 
-    align-items: stretch; 
-    */
-}
-
-li {
-    display: grid;
-    /*
-    justify-items: stretch; 
-    align-items: stretch; 
-    */    
-}
-
-.mark {
-    font-size: 10rem;
-}
-
-.win {
-	background-color: SeaGreen;
-}
-
-.new {
-    padding: 1rem;
-    border-radius: 0.3rem;
-    background-color: RoyalBlue;
-    color: white;
-}
